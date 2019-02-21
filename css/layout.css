@@ -24,4 +24,37 @@
 
 /* Positioning Classes */
 
+.list {
+  float: left;
+  width: 32%;
+  display: inline-block;
+  margin-bottom: 2%;
+}
 
+.col-1 {
+  width: 31%;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.col-2 {
+  float: left;
+  width: 66%;
+
+}
+
+.col-3 {
+
+}
+
+.bottom-gap {
+  margin-bottom: 15px;
+}
+
+.right {
+  margin-right: 2%;
+}
+
+.top {
+  margin-top: 2%;
+}
