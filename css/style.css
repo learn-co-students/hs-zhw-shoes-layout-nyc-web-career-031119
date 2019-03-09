@@ -108,6 +108,7 @@ iframe {
 .wrapper {
   width: 960px;
   margin: 0 auto;
+  /* background: yellow; */
 }
 
 .shadow {
@@ -303,3 +304,38 @@ footer a {
 }
 
 /* code examples copyright Jonathan Grover 2012 */
+/* 
+.clearfix{
+  clear: both;
+  content: ".";
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+  display: block;
+} */
+.col-4{
+  width: 30%;
+  float: left;
+  margin: 0px;
+}
+.col-2{
+  width: 66%;
+  float: left;
+  /* margin-left: 2%; */
+}
+.col-1-left{
+  width: 32%;
+  float: left;
+  margin-left: 2%;
+} 
+
+.col-1{
+  width: 32%;
+  float: left;
+  margin: 2% 0% 2% 2%;
+  /* clear: right; */
+}
+.col-1-first{
+  clear: left;
+  margin-left: 0%;
+}
