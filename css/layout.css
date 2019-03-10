@@ -23,5 +23,20 @@
 }
 
 /* Positioning Classes */
+.col-1 {
+  float: left;
+  width: 65%;
+  column-gap: 40px
+}
+.col-2 {
+  float: right;
+  width: 30%;
+ 
+}
 
+.cols {
+  column-count: 3;
+  column-gap: 40px;
+  column-width: 30%;
+}
 
