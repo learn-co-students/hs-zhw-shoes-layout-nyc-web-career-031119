@@ -34,6 +34,14 @@
  
 }
 
+.cols:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+  }
 .cols {
   column-count: 3;
   column-gap: 40px;
