@@ -23,18 +23,12 @@
 }
 
 /* Positioning Classes */
-.col-1 {
-  float: left;
-  width: 65%;
-  column-gap: 40px
-}
-.col-2 {
-  float: right;
-  width: 30%;
- 
-}
+.row {
+    clear: both;
+    margin-bottom: 2%;
+  }
 
-.cols:after {
+  .row:after {
     content: ".";
     display: block;
     clear: both;
@@ -42,9 +36,15 @@
     height: 0;
     line-height: 0;
   }
-.cols {
-  column-count: 3;
-  column-gap: 40px;
-  column-width: 30%;
-}
 
+  [class*="col-"] {
+    float: left;
+    margin-left: 2%;
+  }
+
+  [class*="col-"]:first-child {
+    margin-left: 0;
+  }
+
+  .col-4 { width: 32%; }
+  .col-8 { width: 66%; }
